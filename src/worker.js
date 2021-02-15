@@ -38,7 +38,7 @@ const handlers = {
 
 parentPort.addListener("message", async message => {
   try {
-    const handler = handlers[message.type] ?? handlers.__default__;
+    const handler = handlers[message.type] || handlers.__default__;
     const result = await handler(message);
     send({ type: "success", result });
   } catch (error) {

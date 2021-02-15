@@ -21,6 +21,7 @@
     "@babel/plugin-transform-exponentiation-operator": "^7.12.13"
   },
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/index.js",
+    "test-worker-syntax": "node -c src/worker.js"
   }
 }
