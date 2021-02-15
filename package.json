@@ -1,0 +1,26 @@
+{
+  "name": "babel-synchronized",
+  "version": "0.1.0",
+  "description": "Call Babel synchronously by running it in a Node.js worker",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "author": "Nicolò Ribaudo (https://github.com/nicolo-ribaudo)",
+  "bugs": "https://github.com/nicolo-ribaudo/babel-synchronized",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolo-ribaudo/babel-synchronized.git"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-syntax-pipeline-operator": "^7.12.13",
+    "@babel/plugin-transform-arrow-functions": "^7.12.13",
+    "@babel/plugin-transform-exponentiation-operator": "^7.12.13"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  }
+}
