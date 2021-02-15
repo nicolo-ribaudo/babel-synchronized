@@ -5,7 +5,6 @@ on: [push, pull_request]
 jobs:
   test:
     name: Test on Node.js
-    needs: build
     runs-on: ubuntu-latest
     strategy:
       matrix:
