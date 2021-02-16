@@ -23,7 +23,7 @@ const handlers = {
       );
     }
 
-    const babel = await babelP;
+    const { default: babel } = await babelP;
     const fn = babel[message.name];
     const result = await fn(...message.args);
 
