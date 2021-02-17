@@ -1,7 +1,5 @@
 "use strict";
 
-() => import("");
-
 const [major, minor] = process.versions.node.split(".")
 if (+major < 12 || +major === 12 && +minor < 17) {
   throw new Error("babel-synchronized requires Node.js >= 12.7")
