@@ -1,6 +1,6 @@
 {
   "name": "babel-synchronized",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Call Babel synchronously by running it in a Node.js worker",
   "main": "src/index.js",
   "type": "commonjs",
